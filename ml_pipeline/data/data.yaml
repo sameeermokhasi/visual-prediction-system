@@ -1,0 +1,16 @@
+# Paths are relative to this file (data.yaml)
+train: train/images
+val: valid/images
+test: test/images
+
+# Class information
+nc: 7
+names: ['casting_with_burr', 'crack', 'pit', 'polished_casting', 'scratch', 'stain', 'unpolished_casting']
+
+# Roboflow info (this part is just a comment, it's fine)
+roboflow:
+  workspace: visual-phlxn
+  project: casting-jhor7
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/visual-phlxn/casting-jhor7/dataset/1

@@ -1,0 +1,12 @@
+/* Import Google Font (Inter) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap');
+
+/* Inject Tailwind's base styles, component classes, and utility classes */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Add some base body styling */
+body {
+  @apply font-sans antialiased text-gray-800 bg-gray-50; /* Use Inter font, smooth text, set base colors */
+}
